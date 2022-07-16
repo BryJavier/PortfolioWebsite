@@ -368,7 +368,7 @@ section{
 
 .contact .contact-content .right .skill-description{
     font-weight: 100;
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
@@ -627,6 +627,80 @@ section{
         text-align: center;
     }
     
+    @media (max-width: 540px){
 
+        .max-width{
+            max-width: 1300px;
+            padding: 0 10px;
+            margin: auto 20px;
+        }
+
+
+        .navbar .logo a{
+            font-size: 20px;
+        }
+
+        .home{
+            height: 120vh;
+        }
+        
+        .skills .skills-content .right .info img{
+            height: 50px;
+            width: auto;
+        }
+
+        .skills .skills-content .left img{
+          height: 250px;
+          width: auto;
+        }
+
+        .skills .title::before{
+            width: 200px;
+            bottom: -30px;
+        }
+
+        .skills .title::after{
+            font-size: 15px;
+        }
+        
+        .github .title::before{
+            width: 200px;          
+        }
+        
+        .github .title::after{
+            content: "View My Works";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            font-size: 20px;
+            color: crimson;
+            padding: 5px;
+            background: #fff;
+            transform: translateX(-50%);
+        }
+
+
+        .about .title::before{
+            width: 120px;
+            bottom: 3px;
+        }
+
+        .about .title::after{
+            font-size: 15px;
+        }
+
+        .contact .title::before{
+            width: 200px;
+            bottom: -20px;
+        }
+
+        .contact .title::after{
+            font-size: 15px;
+        }
+
+        .contact .contact-content .right .info{
+            font-size: 10px;
+        }
+    }
     
 }
