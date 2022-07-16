@@ -518,7 +518,7 @@ section{
 
     .navbar .menu{
         position: fixed;
-        height: 100vh;
+        height: 150vh;
         width:  100%;
         left: 0;
         top: -100%;
